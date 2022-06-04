@@ -71,8 +71,8 @@ namespace Microboinc_GUI
                 var v = hc.SendAsync(requestMessage).Result;
                 string s = v.StatusCode.ToString();
                 string s1 = v.Content.ReadAsStringAsync().Result;
-                MessageBox.Show(s +  "\n\n" + s1);
-                if (s.Contains("Aphrodite"))
+                //MessageBox.Show(s +  "\n\n" + s1);
+                if (s.Contains("OK"))
                 {
                     return true;
                 }
