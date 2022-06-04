@@ -16,6 +16,9 @@
             <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="39,0,0,0" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" Width="701"/>
 
         </GroupBox>
+        <Label x:Name="label2" Content="User Info:
+               " HorizontalAlignment="Left" Margin="437,34,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlkUserInfo" HorizontalAlignment="Left" Margin="437,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="152" Width="339"/>
 
     </Grid>
 </Window>
