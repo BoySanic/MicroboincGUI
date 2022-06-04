@@ -1,0 +1,21 @@
+﻿<Window x:Class="Microboinc_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Microboinc_GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="label" Content="API Key:" HorizontalAlignment="Left" Margin="42,34,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="99,34,0,0" VerticalAlignment="Top" Width="204" RenderTransformOrigin="0.512,1.383" Height="26"/>
+        <Button x:Name="button" Content="Test API Key" HorizontalAlignment="Left" Margin="122,78,0,0" VerticalAlignment="Top" Height="55" Width="126" RenderTransformOrigin="0.52,0.537" Click="button_Click"/>
+        <Label x:Name="label1" Content="Thread Count:" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="153,152,0,0" VerticalAlignment="Top" Width="64"/>
+        <GroupBox x:Name="groupBox" Header="GroupBox" Margin="0,227,0,0">
+            <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="39,0,0,0" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" Width="701"/>
+
+        </GroupBox>
+
+    </Grid>
+</Window>
